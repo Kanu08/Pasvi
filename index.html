@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly - Live Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌤️ Weatherly</h1>
+            <div class="search">
+                <input type="text" id="cityInput" placeholder="Enter city name (e.g., Mumbai)">
+                <button onclick="searchCity()">Search</button>
+            </div>
+        </header>
+
+        <div id="weatherDisplay" class="weather-card">
+            <div id="location"></div>
+            <div id="temp" class="temperature"></div>
+            <div id="condition" class="condition"></div>
+            <img id="icon" class="weather-icon" src="" alt="weather">
+            
+            <div class="details">
+                <div>Humidity: <span id="humidity"></span>%</div>
+                <div>Wind: <span id="wind"></span> km/h</div>
+                <div>Feels like: <span id="feels"></span>°C</div>
+            </div>
+        </div>
+
+        <button onclick="getCurrentLocation()" class="location-btn">📍 Use My Location</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+                  </html>
