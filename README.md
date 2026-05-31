@@ -1,4 +1,4 @@
-# 🌤️ Weatherly - Live Weather App
+#Pasvi - Live Weather App
 
 A beautiful, lightweight, and responsive weather web application built with HTML, CSS, and JavaScript. It shows real-time weather information with a modern glassmorphism design.
 
